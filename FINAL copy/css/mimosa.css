@@ -1,0 +1,111 @@
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+body {
+	margin: 0;
+}
+
+.nav {
+	text-align: center;
+	background-color: #fdfd85;
+	top: 0;
+	width: 100%;
+	height: 40px;
+	font-weight: bold;
+	position: fixed;
+
+}
+nav a {
+	text-decoration: none;
+	margin: 20px;
+	color: black;
+	font-size: 30px;
+    text-transform: uppercase;
+
+}
+a:hover {
+	color: white;
+}
+
+header {
+	background-image: url(../img/mimosa.jpg);
+	background-size: cover;
+	height: 1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+h1 {
+font-size: 70px;
+text-transform: uppercase;
+color: black;
+text-shadow: 6px 10px #fdfd85;
+
+}
+
+h2 {
+	font-size: 40px;
+	color: black;
+	text-align: center;
+}
+ p {
+ 	margin: 50px;
+ }
+.recipe {
+	background-color: #fdfd85;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-60 {
+	width: 60%;
+}
+
+.col-40 {
+	width: 40%;
+}
+
+h3 {
+	margin: 50px;
+	text-align: center;
+	font-size: 35px;
+}
+
+.more {
+	display: flex;
+}
+
+.photocolumns {
+	width: 50%;
+}
+
+img {
+	margin: 20px;
+}
+
+footer {
+	text-align: center;
+}
+
+footer a {
+	padding: 20px;
+	background-color: #fdfd85;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+}
+
+

@@ -1,0 +1,117 @@
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+
+body {
+	background-image: url(../img/f.jpg);
+	margin: 0;
+	}
+
+ h1 {
+ 	text-align: center;
+ 	margin: 100px;
+ 	font-size: 100px;
+ 	color: white;
+ 	text-transform: uppercase;
+ 	text-shadow: 4px 10px red;
+ }
+
+ h2 {
+ 	text-align: center;
+ 	margin: 20px;
+ 	font-size: 45px;
+ 	color: white;
+ 	text-transform: uppercase;
+ 	text-shadow: 4px 10px red;
+ }
+
+button {
+	padding: 24px;
+	background-color: green;
+	
+}
+
+.yes_button {
+	padding: 24px;
+    background-color: green;
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    color: black;
+
+}
+
+ button:hover, .yes_button:hover {
+ 	background-color: blue;
+ }
+.inlinebuttons {
+	text-align: center;
+}
+ 
+
+
+ .center {
+ 	text-align: center;
+ }
+
+ .modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  
+
+ }
+
+ .modal-content {
+  width: 600px;
+  height: 300px;
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  transform: translateX(320px);
+  
+
+ }
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 42px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.DOB {
+  display: block;
+  margin: 20px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
